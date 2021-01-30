@@ -1,4 +1,11 @@
+---
 application:
-  name: redis
-  project: CHANGEME
-  organization: CHANGEME
+  name: "redis-5"
+  project: "tryPosthog"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-redis-5"
+  routes:
+  - application_name: "redis-5"
+    paths:
+    - "/*"
